@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    color: palevioletred;
+    background-color: lightgray;
+ 
+}
+
+header, footer {
+    text-align: center;
+}
+
+.formContainer {
+    width: 400px;
+    margin: 0 auto;
+    border-style: dotted;
+    border-color: darkblue;
+    border-width: 10px;
+    
+}
+
+.form {
+    margin: 20px;
+}
+
+label, input , textarea {
+    width: 100%;
+    margin-top: 1rem;
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: darkblue;
+}
+
+.submit {
+    border: 2px solid darkblue;
+    padding: .5rem;
+}
+
+.submit:hover {
+    opacity: 0.5;
+}
